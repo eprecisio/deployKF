@@ -7,5 +7,5 @@ cd "$THIS_SCRIPT_PATH"
 
 deploykf generate \
   --source-path ./generator \
-  --values ./sample-values.yaml \
+  --values ./custom-istio-v015.yaml \
   --output-dir ./GENERATOR_OUTPUT
